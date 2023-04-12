@@ -1,7 +1,11 @@
 import React from "react"
 
 function List(props) {
-  return <div>Hello World</div>
+  const listdata = props.listdata
+
+  let list = { listdata }.map(animal => animal)
+
+  return <div></div>
 }
 
 export default List
